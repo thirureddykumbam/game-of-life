@@ -8,22 +8,22 @@
     <name>gameoflife</name>
     <url>https://github.com/wakaleo/game-of-life</url>
     <distributionManagement>
-	<snapshotRepository>
-		<id>nexus</id>
-		<url>http://54.89.231.135:8081/nexus/content/repositories/snapshots/</url>
-	</snapshotRepository>
 	<repository>
 		<uniqueVersion>false</uniqueVersion>
 		<id>nexus</id>
 		<name>release</name>
 		<url>http://54.89.231.135:8081/nexus/content/repositories/releases/</url>
+		<layout>default</layout>
 	</repository>
+	   <snapshotRepository>
+		   <uniqueVersion>true</uniqueVersiom>
+		<id>nexus</id>
+		<url>http://54.89.231.135:8081/nexus/content/repositories/snapshots/</url>
+		   <layout>default</layout>
+	</snapshotRepository> 
 </distributionManagement>
     
-    
-    
-    
-    <properties>
+	<properties>
         <build.number>SNAPSHOT</build.number>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <easyb.version>1.4</easyb.version>
