@@ -16,7 +16,7 @@
 		<layout>default</layout>
 	</repository>
 	   <snapshotRepository>
-		   <uniqueVersion>true</uniqueVersiom>
+		   <uniqueVersion>true</uniqueVersion>
 		<id>nexus</id>
 		   <name>Snapshots</name>
 		<url>http://54.89.151.151:8081/nexus/content/repositories/snapshots/</url>
