@@ -11,14 +11,14 @@
 	<repository>
 		<uniqueVersion>false</uniqueVersion>
 		<id>nexus</id>
-		<name>release</name>
-		<url>http://54.89.231.135:8081/nexus/content/repositories/releases/</url>
+		<name>releases</name>
+		<url>http://54.89.151.151:8081/nexus/content/repositories/releases/</url>
 		<layout>default</layout>
 	</repository>
 	   <snapshotRepository>
 		   <uniqueVersion>true</uniqueVersiom>
 		<id>nexus</id>
-		<url>http://54.89.231.135:8081/nexus/content/repositories/snapshots/</url>
+		<url>http://54.89.151.151:8081/nexus/content/repositories/snapshots/</url>
 		   <layout>default</layout>
 	</snapshotRepository> 
 </distributionManagement>
