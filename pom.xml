@@ -20,7 +20,7 @@
 		<id>nexus</id>
 		   <name>Snapshots</name>
 		<url>http://54.89.151.151:8081/nexus/content/repositories/snapshots/</url>
-		   <layout>default</layout>
+		   <layout>legacy</layout>
 	</snapshotRepository> 
 </distributionManagement>
     
