@@ -11,7 +11,7 @@
 	<repository>
 		<uniqueVersion>false</uniqueVersion>
 		<id>nexus</id>
-		<name>Releases</name>
+		<name>candidate release</name>
 		<url>http://52.14.116.179:8081/nexus/content/repositories/candidate release/</url>
 	</repository>
 	   <snapshotRepository>
