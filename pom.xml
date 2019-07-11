@@ -12,7 +12,7 @@
 		<uniqueVersion>false</uniqueVersion>
 		<id>nexus</id>
 		<name>Releases</name>
-		<url>http://52.14.116.179:8081/nexus/content/repositories/releases/</url>
+		<url>http://52.14.116.179:8081/nexus/content/repositories/candidate release/</url>
 	</repository>
 	   <snapshotRepository>
 		   <uniqueVersion>true</uniqueVersion>
